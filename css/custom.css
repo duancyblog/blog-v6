@@ -1,0 +1,17 @@
+/* 友链朋友圈容器适配 */
+#friend-circle-lite-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px;
+}
+/* 适配 Stellar 暗色模式 */
+[data-theme="dark"] #friend-circle-lite-root {
+  --text-color: #e5e7eb;
+  --bg-color: #1f2937;
+}
+/* 优化卡片样式，与 Stellar 一致 */
+.fclite-card {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--border-color);
+}
